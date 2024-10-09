@@ -4,8 +4,9 @@ function fib(n) {
     }
     else if (n ===1){
         return 1;
+    }
     else {
-         fib(n) = fib(n-1)+ fib(n-2)
+         n = fib(n-1)+ fib(n-2)
         return n;
     }
 }
