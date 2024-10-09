@@ -6,7 +6,7 @@ function fib(n) {
         return 1;
     }
     else {
-         n = fib(n-1)+ fib(n-2)
+         fib(n-1) + fib(n-2);
         return n;
     }
 }
