@@ -3,15 +3,17 @@ function fib(n) {
     arr[0] = 0;
     arr[1] = 1;
     
-    if (n === 0){
-        return 0;
-    }
-    else if (n ===1){
-        return 1;
-    }
-    else {
-        let i = 1;
-       arr[1+i] = fib(n-1) + fib(n-2);
-        i++;
+    function helpFib(x){
+        if (x === 0){
+            return [0];
+        }
+        else if (x ===1){
+            return [1];
+        }
+        else {
+            arr[X] = helpFib(n-1) + helpFib(n-2);
+        }
+        helpFib(n);
+        return arr;
     }
 }
