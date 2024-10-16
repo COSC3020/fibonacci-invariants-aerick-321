@@ -1,7 +1,5 @@
 function fib(n) {
     const arr = new Array [n + 1];
-    arr[0] = 0;
-    arr[1] = 1;
     
     function helpFib(x){
         if (x === 0){
