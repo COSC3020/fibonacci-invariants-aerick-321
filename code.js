@@ -1,5 +1,5 @@
 function fib(n) {
-    let arr = [n +1];
+    const arr = new array [n + 1];
     arr[0] = 0;
     arr[1] = 1;
     
