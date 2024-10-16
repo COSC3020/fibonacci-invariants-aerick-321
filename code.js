@@ -1,5 +1,5 @@
 function fib(n) {
-    const arr = new array [n + 1];
+    const arr = new Array [n + 1];
     arr[0] = 0;
     arr[1] = 1;
     
@@ -13,7 +13,8 @@ function fib(n) {
         else {
             arr[x] = helpFib(x-1) + helpFib(x-2);
         }
-        helpFib(n);
-        return arr;
+        return arr[x];
     }
+    helpFib (n);
+    return arr;
 }
