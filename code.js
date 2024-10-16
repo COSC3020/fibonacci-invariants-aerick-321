@@ -1,5 +1,7 @@
 function fib(n) {
     let arr = [];
+    arr[0] = 0;
+    arr[1] = 1;
     
     if (n === 0){
         return 0;
@@ -8,6 +10,8 @@ function fib(n) {
         return 1;
     }
     else {
-       return fib(n-1) + fib(n-2);
+        let i = 1;
+       arr[1+i] = fib(n-1) + fib(n-2);
+        i++;
     }
 }
