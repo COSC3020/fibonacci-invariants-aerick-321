@@ -11,7 +11,7 @@ function fib(n) {
             return [1];
         }
         else {
-            arr[X] = helpFib(n-1) + helpFib(n-2);
+            arr[x] = helpFib(n-1) + helpFib(n-2);
         }
         helpFib(n);
         return arr;
