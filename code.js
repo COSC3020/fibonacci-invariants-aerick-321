@@ -5,10 +5,10 @@ function fib(n) {
     
     function helpFib(x){
         if (x === 0){
-            return [0];
+            arr [x] = 0;
         }
         else if (x ===1){
-            return [1];
+            arr [x]= 1;
         }
         else {
             arr[x] = helpFib(x-1) + helpFib(x-2);
