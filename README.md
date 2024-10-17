@@ -28,4 +28,6 @@ Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
 
-wrote the code myself and ChatGpt gave me the idea to use a second helper function to with the array recursion. “I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.”
+An invariant would the two numbers before the call n-1. If we have the two previous numbers we can get to the base case because the first two are already set at 0 and 1.
+
+Wrote the code myself and ChatGpt gave me the idea to use a second helper function to with the array recursion. “I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.”
