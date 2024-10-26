@@ -28,6 +28,6 @@ Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
 
-An invariant would the two numbers before the call fib(n). The function need access to the right values for the Fibonacci sequence for the two previous numbers in the list, fib(n-1) and fib(n-2). Each recursive call computes fib(n) by adding these two values, meaning that the recursive calls are moving toward the base case while maintaining this invariant until reaching fib(0) and fib(1).
+An invariant would recursive implimentation of fib(n). The function need access to the right values for the Fibonacci sequence for the two previous numbers in the list, fib(n-1) and fib(n-2). Each recursive call computes fib(n) by adding these two values, meaning that the recursive calls are moving toward the base case while maintaining this invariant until reaching fib(0) and fib(1).
 
 Wrote the code myself and ChatGpt gave me the idea to use a second helper function to with the array recursion. “I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.”
