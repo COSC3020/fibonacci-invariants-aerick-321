@@ -28,6 +28,6 @@ Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
 
-An invariant for fib(n) would be the two previous numbers in the sequence, fib(n-1) and fib(n-2). Each recursive call computes fib(n) by adding these two values. This recursive call starts with fib(0) and fib(1) in the array which satifies the base case.
+An invariant for fib(n) would be assuming the two previous numbers in the sequence, fib(n-1) and fib(n-2) are the correct value when suming them to get fib(n). Each recursive call computes fib(n) by adding these two values. This recursive call starts with fib(0) and fib(1) in the array which satifies the base case.
 
 Wrote the code myself and ChatGpt gave me the idea to use a second helper function to with the array recursion. “I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.”
